@@ -3,7 +3,7 @@
   background-color: rgb(27, 190, 95); /* присвоил цвет области */
 }
 
-.content img { /* обращение к классу и тегу img */
-  width: 1100px; /* задал ширину */
-  height: 300px; /* задал высоту */
+.content img {
+  width: 700px;
+  height: 200px;
 }

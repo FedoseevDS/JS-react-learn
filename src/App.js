@@ -1,8 +1,8 @@
 import React from 'react'; // импортирую модуль React
 import './App.css'; // импортирую файл, которой находиться в моей директории
-import Header from './components/Header'; // импортирую Header.jsx и указываю путь к файлу
-import Navbar from './components/Navbar'; // импортирую Navbar.jsx и указываю путь к файлу
-import Profile from './components/Profile'; // импортирую Profile.jsx и указываю путь к файлу
+import Header from './components/Header/Header'; // импортирую Header.jsx и указываю путь к файлу
+import Navbar from './components/Navbar/Navbar'; // импортирую Navbar.jsx и указываю путь к файлу
+import Profile from './components/Profile/Profile'; // импортирую Profile.jsx и указываю путь к файлу
 
 const App = () => { // функция App, возвращает с помощью JSX, разметку HTML
   return ( // команда возвращает результат
