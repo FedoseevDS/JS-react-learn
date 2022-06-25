@@ -7,7 +7,7 @@ import ocean from '../../../img/ocean.png';
 const Post = (props) => { // создал стрелочную функцию 
     return ( // возвращает результат
       <div className={p.item}> {/* тег блока, с классом для css */}
-        <img className={p.img} src={ocean} />
+        <img className={p.img} src={ocean} alt=''/>
         {props.message}
           <div>
         <span>Like</span> {props.likeCount}
