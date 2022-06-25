@@ -7,3 +7,8 @@
   grid-template-areas: 'h h' 'n c'; /* задаю расположение ячеек на сетке */
   grid-gap: 10px; /* задаю расстояние между ячейками */
 }
+
+.app-wrapper-content {
+    grid-area: c; 
+    background-color: rgb(27, 190, 95); 
+}

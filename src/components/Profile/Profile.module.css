@@ -1,8 +1,3 @@
-.content { /* импортирую класс из js */
-  grid-area: c; /* дал название элементу, для расположения его в сетке */
-  background-color: rgb(27, 190, 95); /* присвоил цвет области */
-}
-
 .content img {
   width: 700px;
   height: 200px;

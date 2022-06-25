@@ -11,8 +11,8 @@ const MyPosts = () => { // создал стрелочную функцию
         <button>Добавить пост</button>
         <button>Удалить текст</button>
       </div> {/* закрывающий тег */}
-      <Post message='Hi, how are you?' like='- 20' />
-      <Post message="It's my first post" like='- 25' />
+      <Post message='Hi, how are you?' likeCount='- 20' />
+      <Post message="It's my first post" likeCount='- 25' />
     </div> 
   )
 }
