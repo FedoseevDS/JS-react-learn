@@ -1,12 +1,21 @@
 .nav { /* импортирую класс из js */
   grid-area: n; /* дал название элементу, для расположения его в сетке */
   background-color: rgb(192, 133, 75); /* присвоил цвет области */
+  padding: 20px;
 }
 
-.item { /* подключил класс */
-  color: white; /* цвет заливки строки */
+.item a { /* подключил класс */
+  color: whitesmoke;
+  text-decoration: none;
 }
 
-.item.active {
-  color: blue; /* цвет заливки строки */
+.item a:hover {
+  color: rgb(19, 21, 22);
 }
+
+.item a.active {
+  color: goldenrod;
+}
+
+
+

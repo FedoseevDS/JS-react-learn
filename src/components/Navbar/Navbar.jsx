@@ -1,6 +1,6 @@
 import React from 'react'; // импортирую модуль
-/* import { Link } from 'react-router-dom'; */
-import n from './Navbar.module.css'; // создал объект с именем s и импортировал в него ключи, название классов без .
+import { NavLink } from 'react-router-dom';
+import s from './Navbar.module.css'; // создал объект с именем s и импортировал в него ключи, название классов без .
 
 /* let classes = { 
     'nav': 'Navbar_nav__qyS8H', 
@@ -16,21 +16,21 @@ let classesNew = `${n.item} ${n.active}`; */
 
 const Navbar = () => { // создал функцию с переменной Navbar
     return (
-    <nav className={n.nav}> {/* функция возвращает html разметку */}
-      <div className={n.item}> {/* блок с объектом и его свойством */}
-        <a href="/profile">Пользователь</a> {/* тег гиперссылки */}
+    <nav className={s.nav}> {/* функция возвращает html разметку */}
+      <div className={s.item}> {/* блок с объектом и его свойством */}
+        <NavLink to="/profile" activeClassName={s.active}>Пользователь</NavLink> {/* тег гиперссылки */}
       </div> {/* закрывающий тег */}
-      <div className={`${n.item} ${n.active}`}> {/* блок с объектом и 2 свойствами */} 
-        <a href="/dialogs">Сообщения</a> {/* тег гиперссылки */}
+      <div className={s.item}> {/* блок с объектом и 2 свойствами */} 
+        <NavLink to="/dialogs" activeClassName={s.active}>Сообщения</NavLink> {/* тег гиперссылки */}
       </div> {/* закрывающий тег */}
-      <div className={n.item}> {/* блок с объектом и его свойством */}
-        <a href='/news'>Новости</a> {/* тег гиперссылки */}
+      <div className={s.item}> {/* блок с объектом и его свойством */}
+        <NavLink to='/news' activeClassName={s.active}>Новости</NavLink> {/* тег гиперссылки */}
       </div> {/* закрывающий тег */}
-      <div className={n.item}> {/* блок с объектом и его свойством */}
-        <a href='/music'>Музыка</a> {/* тег гиперссылки */}
+      <div className={s.item}> {/* блок с объектом и его свойством */}
+        <NavLink to='/music' activeClassName={s.active}>Музыка</NavLink> {/* тег гиперссылки */}
       </div> {/* закрывающий тег */}
-      <div className={n.item}> {/* блок с объектом и его свойством */}
-        <a href='/setting'>Настройки</a> {/* тег гиперссылки */}
+      <div className={s.item}> {/* блок с объектом и его свойством */}
+        <NavLink to='/setting' activeClassName={s.active}>Настройки</NavLink> {/* тег гиперссылки */}
       </div> {/* закрывающий тег */}
     </nav> // закрывающий тег всей функции
   )

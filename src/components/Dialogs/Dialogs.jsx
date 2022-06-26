@@ -4,7 +4,7 @@ import React from 'react';
 const Dialog = (props) => {
     return (
         <div>
-            dialogs 
+             
         </div>
     )
 }
