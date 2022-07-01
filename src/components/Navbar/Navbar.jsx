@@ -14,6 +14,10 @@ let c2 = 'active';
 let classes = c1 + ' ' + c2;
 let classesNew = `${n.item} ${n.active}`; */
 
+const DialogItem = () => {
+  
+}
+
 const Navbar = () => { // создал функцию с переменной Navbar
     return (
     <nav className={s.nav}> {/* функция возвращает html разметку */}

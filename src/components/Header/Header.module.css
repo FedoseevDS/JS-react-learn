@@ -1,10 +1,10 @@
-.header img { /* . - импортирую класс из js */
-  width: 5%; /* ширина элемента */
-  height: auto; /* высота элемента */
-}
+.header img { 
+  width: 5%; 
+  height: auto; 
+} 
 
-.header { /* импортирую класс из js */
-  grid-area: h; /* дал название элементу, для расположения его в сетке */
-  background-color: rgb(101, 211, 211); /* присвоил цвет области */
-}
+.header { 
+  grid-area: h; 
+  background-color: rgb(101, 211, 211); 
+} 
 

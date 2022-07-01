@@ -13,8 +13,12 @@
   color: rgb(19, 21, 22);
 }
 
-.item a.active {
+/* .item a:active {
   color: goldenrod;
+} */
+
+.item a:focus {
+  color: brown;
 }
 
 

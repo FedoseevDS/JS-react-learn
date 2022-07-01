@@ -9,21 +9,20 @@
 }
 
 .dialogs_items .active {
-    color: black;
+    color: rgb(215, 218, 148);
 }
 
-.dialog {
+.dialog a {
     color: white;
+    text-decoration: none;
 }
 
-.dialog:hover {
+.dialog a:hover {
     color: black;
 }
 
 .messages {
     padding: 10px;
+    color: white;
 }
 
-.message {
-
-}
