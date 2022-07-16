@@ -1,28 +1,52 @@
-.dialogs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: 1px solid;
+.dialogs { /* . - передает из тега название класса для присвоения стилей */
+    display: grid; /* обозначает что экран будет состоять из сетки */
+    grid-template-columns: 130px 1fr 1fr; /* определяет размер столбцов */
+    border: 1px solid; /* граница в пикселяд solid - показать */
 }
 
-.dialogs_items {
-    padding: 10px;
+.dialogs_items { /* название класса в теге */
+    padding: 30px; /* внутрненний отступ объекта */
 }
 
-.dialogs_items .active {
-    color: rgb(215, 218, 148);
+.dialogs_items .active { /* стили применяются для дочернего класса .active */
+    color: rgb(215, 218, 148); /* цвет текста */
 }
 
-.dialog a {
-    color: white;
-    text-decoration: none;
+.dialog a { /* стили применяются для тега а находящемся в классе */
+    color: white; /* цвет текста */
+    text-decoration: none; /* убирает все стили текста */
+    font-size: 20px; /* размер текста */
+    /* border: 1px solid; */
 }
 
-.dialog a:hover {
-    color: black;
+.dialog a:hover { /* стили применяются к тегу а, на который находиться курсор */
+    color: black; /* цвет текста */
 }
 
-.messages {
-    padding: 10px;
-    color: white;
+.dialog img { /* стили применяются к тегу img, который находится в классе */
+    display: flex; /* экран становится гибким в строку или столбцы */
+    width: 50px; /* шарина в пикселях */
+    margin: 20px 10px 0 0; /* отступ с внешней стороны */
 }
+
+.messages { /* название класса */
+    padding: 30px; /* внутренний отступ */
+    color: white; /* цвет значения */
+    border: 1px solid; /* граница */
+}
+
+.message { /* название класса */
+    display: table-cell; /* делает объект ячейкой таблицы */
+    text-align: center; /* размещает текст по центру */
+    vertical-align: middle; /* если значение находится в ячейке таблицы, выравнивает значение по центру */
+    font-size: 15px; /* размер текста */
+    background: rgb(199, 74, 74); /* задний фон */
+    width: 200px; /* ширина в пикселях */
+    height: 70px; /* высота в пикселях */
+    border: 3px solid rgb(196, 210, 213); /* размер и цвет границы */
+    border-radius: 40%; /* радиус углов в % */
+    margin: 5px 0 0 0; /* внешнй отступ */
+}
+
+
 
