@@ -11,9 +11,10 @@ const MyPosts = (props) => { // создал стрелочную функцию
   let newPostElement = React.createRef();
   
   let addPost = () => { // создал стрелочную функцию addPost
+    debugger;
     // current - ссылается на HTML документ, value - значение HTML документа
     let text = newPostElement.current.value;
-    alert('samuraijs.com'); // alert - выводит сообщение вверху страницы
+    props.addPost('text'); // 
   }
 
   return (
